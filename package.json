@@ -95,8 +95,7 @@
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@aws-sdk/client-lambda": "^3.438.0",
-    "@aws-sdk/credential-providers": "^3.438.0",
-    "aws-sdk": "^2.1483.0"
+    "@aws-sdk/credential-providers": "^3.438.0"
   },
   "devDependencies": {
     "@types/jest": "27.5.2",
