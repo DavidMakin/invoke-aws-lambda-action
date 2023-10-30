@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base", "schedule:earlyMondays"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^eslint"],
+      "groupName": "eslint packages"
+    }
+  ],
+  "npm": {
+    "stabilityDays": 3
+  }
+}
