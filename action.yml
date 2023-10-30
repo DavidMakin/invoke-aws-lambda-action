@@ -4,6 +4,15 @@ branding:
   icon: arrow-up-right
   color: orange
 inputs:
+  AWS_ACCESS_KEY_ID:
+    description: "AWS_ACCESS_KEY_ID"
+    required: true
+  AWS_SECRET_ACCESS_KEY:
+    description: "AWS_SECRET_ACCESS_KEY"
+    required: true
+  AWS_SESSION_TOKEN:
+    description: "AWS_SESSION_TOKEN"
+    required: false
   REGION:
     description: "region where the lambda has been created (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)"
     required: false
